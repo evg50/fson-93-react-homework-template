@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+import Profile from './Profile';
 export const App = () => {
   return (
     <div
@@ -10,7 +12,8 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      React homework template first
+      {/* React homework template first */}
+      <Profile />
     </div>
   );
 };
